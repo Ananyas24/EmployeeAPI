@@ -302,3 +302,4 @@ C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi\obj\Debug\net8.0\refint
 C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi\obj\Debug\net8.0\EmployeeCrudApi.pdb
 C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi\obj\Debug\net8.0\EmployeeCrudApi.genruntimeconfig.cache
 C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi\obj\Debug\net8.0\ref\EmployeeCrudApi.dll
+C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi\obj\Debug\net8.0\EmployeeCrudApi.sourcelink.json
