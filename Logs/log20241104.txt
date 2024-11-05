@@ -1,0 +1,1290 @@
+cls2024-11-04 13:30:14.330 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-04 13:30:14.476 +05:30 [DBG] Hosting starting
+2024-11-04 13:30:14.544 +05:30 [INF] Now listening on: http://localhost:5000
+2024-11-04 13:30:14.546 +05:30 [DBG] Loaded hosting startup assembly EmployeeCrudApi
+2024-11-04 13:30:14.547 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-04 13:30:14.548 +05:30 [INF] Hosting environment: Development
+2024-11-04 13:30:14.548 +05:30 [INF] Content root path: C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi
+2024-11-04 13:30:14.549 +05:30 [DBG] Hosting started
+2024-11-04 13:30:44.474 +05:30 [DBG] Connection id "0HN7SKR4E211O" accepted.
+2024-11-04 13:30:44.479 +05:30 [DBG] Connection id "0HN7SKR4E211O" started.
+2024-11-04 13:30:44.480 +05:30 [DBG] Connection id "0HN7SKR4E211P" accepted.
+2024-11-04 13:30:44.482 +05:30 [DBG] Connection id "0HN7SKR4E211P" started.
+2024-11-04 13:30:44.537 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - null null
+2024-11-04 13:30:44.551 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-04 13:30:44.593 +05:30 [DBG] No candidates found for the request path '/swagger'
+2024-11-04 13:30:44.597 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 13:30:44.671 +05:30 [DBG] Connection id "0HN7SKR4E211O" completed keep alive response.
+2024-11-04 13:30:44.675 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - 301 0 null 141.0585ms
+2024-11-04 13:30:44.684 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2024-11-04 13:30:44.686 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-04 13:30:44.687 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 13:30:44.782 +05:30 [DBG] Connection id "0HN7SKR4E211O" completed keep alive response.
+2024-11-04 13:30:44.785 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 100.7471ms
+2024-11-04 13:30:44.808 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - null null
+2024-11-04 13:30:44.811 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-11-04 13:30:44.813 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - null null
+2024-11-04 13:30:44.813 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 13:30:44.813 +05:30 [DBG] Connection id "0HN7SKR4E211Q" accepted.
+2024-11-04 13:30:44.818 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-11-04 13:30:44.822 +05:30 [DBG] Connection id "0HN7SKR4E211Q" started.
+2024-11-04 13:30:44.824 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 13:30:44.826 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - null null
+2024-11-04 13:30:44.831 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-11-04 13:30:44.835 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 13:30:44.859 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-04 13:30:44.859 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-04 13:30:44.864 +05:30 [DBG] Connection id "0HN7SKR4E211Q" completed keep alive response.
+2024-11-04 13:30:44.864 +05:30 [DBG] Connection id "0HN7SKR4E211O" completed keep alive response.
+2024-11-04 13:30:44.865 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 38.7954ms
+2024-11-04 13:30:44.866 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - 200 152034 text/css 57.8753ms
+2024-11-04 13:30:44.870 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-04 13:30:44.873 +05:30 [DBG] Connection id "0HN7SKR4E211P" completed keep alive response.
+2024-11-04 13:30:44.873 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 60.4743ms
+2024-11-04 13:30:44.988 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2024-11-04 13:30:44.991 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-04 13:30:44.992 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 13:30:45.008 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - null null
+2024-11-04 13:30:45.012 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-11-04 13:30:45.015 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 13:30:45.017 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-04 13:30:45.018 +05:30 [DBG] Connection id "0HN7SKR4E211Q" completed keep alive response.
+2024-11-04 13:30:45.019 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - 200 628 image/png 11.3791ms
+2024-11-04 13:30:45.145 +05:30 [DBG] Connection id "0HN7SKR4E211P" completed keep alive response.
+2024-11-04 13:30:45.147 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 158.7229ms
+2024-11-04 13:30:52.545 +05:30 [DBG] Connection id "0HN7SKR4E211Q" received FIN.
+2024-11-04 13:30:52.545 +05:30 [DBG] Connection id "0HN7SKR4E211O" received FIN.
+2024-11-04 13:30:52.545 +05:30 [DBG] Connection id "0HN7SKR4E211P" received FIN.
+2024-11-04 13:30:52.547 +05:30 [DBG] Connection id "0HN7SKR4E211Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 13:30:52.556 +05:30 [DBG] Connection id "0HN7SKR4E211O" disconnecting.
+2024-11-04 13:30:52.560 +05:30 [DBG] Connection id "0HN7SKR4E211P" disconnecting.
+2024-11-04 13:30:52.565 +05:30 [DBG] Connection id "0HN7SKR4E211Q" disconnecting.
+2024-11-04 13:30:52.567 +05:30 [DBG] Connection id "0HN7SKR4E211O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 13:30:52.571 +05:30 [DBG] Connection id "0HN7SKR4E211P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 13:30:52.586 +05:30 [DBG] Connection id "0HN7SKR4E211Q" stopped.
+2024-11-04 13:30:52.586 +05:30 [DBG] Connection id "0HN7SKR4E211O" stopped.
+2024-11-04 13:30:52.586 +05:30 [DBG] Connection id "0HN7SKR4E211P" stopped.
+2024-11-04 13:31:07.393 +05:30 [DBG] Connection id "0HN7SKR4E211R" accepted.
+2024-11-04 13:31:07.395 +05:30 [DBG] Connection id "0HN7SKR4E211R" started.
+2024-11-04 13:31:07.403 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee - null null
+2024-11-04 13:31:07.409 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-11-04 13:31:07.418 +05:30 [DBG] Endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-11-04 13:31:07.422 +05:30 [DBG] Request matched endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 13:31:07.424 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-04 13:31:07.426 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-04 13:31:07.431 +05:30 [INF] Executing endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 13:31:07.472 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[EmployeeCrudApi.Models.Employee]]] GetEmployees() on controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi).
+2024-11-04 13:31:07.480 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-04 13:31:07.483 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-04 13:31:07.488 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-04 13:31:07.493 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-04 13:31:07.497 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-04 13:31:07.512 +05:30 [DBG] Executing controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 13:31:07.773 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 13:31:07.798 +05:30 [DBG] Executed controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 13:31:07.804 +05:30 [INF] Fetching all employees.
+2024-11-04 13:31:08.325 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 13:31:08.407 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()'
+2024-11-04 13:31:08.595 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Department (string) Required, 1], [Property: Employee.Email (string) Required, 2], [Property: Employee.FirstName (string) Required, 3], [Property: Employee.LastName (string) Required, 4] }
+        SELECT e.Id, e.Department, e.Email, e.FirstName, e.LastName
+        FROM Employees AS e), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeCrudApi.Data.EmployeeContext, 
+    False, 
+    False, 
+    True
+)'
+2024-11-04 13:31:08.647 +05:30 [DBG] Creating DbConnection.
+2024-11-04 13:31:08.675 +05:30 [DBG] Created DbConnection. (25ms).
+2024-11-04 13:31:08.683 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 13:31:25.980 +05:30 [ERR] An error occurred using the connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 13:31:26.011 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeCrudApi.Data.EmployeeContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2024-11-04 13:31:26.063 +05:30 [INF] Executed action EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi) in 18554.0713ms
+2024-11-04 13:31:26.068 +05:30 [INF] Executed endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 13:31:26.071 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EmployeeCrudApi.Controllers.EmployeeController.GetEmployees() in C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi\Controllers\EmployeeController.cs:line 27
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2024-11-04 13:31:26.139 +05:30 [DBG] Connection id "0HN7SKR4E211R" completed keep alive response.
+2024-11-04 13:31:26.146 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 13:31:26.159 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 13:31:26.174 +05:30 [DBG] Disposed connection to database '' on server '' (6ms).
+2024-11-04 13:31:26.179 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Employee - 500 null text/plain; charset=utf-8 18775.8519ms
+2024-11-04 13:31:32.593 +05:30 [DBG] Connection id "0HN7SKR4E211R" received FIN.
+2024-11-04 13:31:32.596 +05:30 [DBG] Connection id "0HN7SKR4E211R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 13:31:32.597 +05:30 [DBG] Connection id "0HN7SKR4E211R" disconnecting.
+2024-11-04 13:31:32.606 +05:30 [DBG] Connection id "0HN7SKR4E211R" stopped.
+2024-11-04 13:42:02.500 +05:30 [INF] Application is shutting down...
+2024-11-04 13:42:02.503 +05:30 [DBG] Hosting stopping
+2024-11-04 13:42:02.523 +05:30 [DBG] Hosting stopped
+2024-11-04 14:45:14.854 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-04 14:45:14.914 +05:30 [DBG] Hosting starting
+2024-11-04 14:45:14.953 +05:30 [INF] Now listening on: http://localhost:5000
+2024-11-04 14:45:14.954 +05:30 [DBG] Loaded hosting startup assembly EmployeeCrudApi
+2024-11-04 14:45:14.955 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-04 14:45:14.955 +05:30 [INF] Hosting environment: Development
+2024-11-04 14:45:14.956 +05:30 [INF] Content root path: C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi
+2024-11-04 14:45:14.956 +05:30 [DBG] Hosting started
+2024-11-04 14:46:20.158 +05:30 [DBG] Connection id "0HN7SM5C5NBI6" accepted.
+2024-11-04 14:46:20.167 +05:30 [DBG] Connection id "0HN7SM5C5NBI6" started.
+2024-11-04 14:46:20.311 +05:30 [DBG] Connection id "0HN7SM5C5NBI7" accepted.
+2024-11-04 14:46:20.314 +05:30 [DBG] Connection id "0HN7SM5C5NBI7" started.
+2024-11-04 14:46:20.492 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2024-11-04 14:46:20.497 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-04 14:46:20.507 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-04 14:46:20.508 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 14:46:20.583 +05:30 [DBG] Connection id "0HN7SM5C5NBI7" completed keep alive response.
+2024-11-04 14:46:20.585 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.9546ms
+2024-11-04 14:46:27.239 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee - null null
+2024-11-04 14:46:27.250 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-11-04 14:46:27.256 +05:30 [DBG] Endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-11-04 14:46:27.260 +05:30 [DBG] Request matched endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 14:46:27.269 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-04 14:46:27.271 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-04 14:46:27.274 +05:30 [INF] Executing endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 14:46:27.321 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[EmployeeCrudApi.Models.Employee]]] GetEmployees() on controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi).
+2024-11-04 14:46:27.330 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-04 14:46:27.333 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-04 14:46:27.337 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-04 14:46:27.341 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-04 14:46:27.343 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-04 14:46:27.348 +05:30 [DBG] Executing controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 14:46:27.534 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 14:46:27.556 +05:30 [DBG] Executed controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 14:46:27.561 +05:30 [INF] Fetching all employees.
+2024-11-04 14:46:28.068 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 14:46:28.135 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()'
+2024-11-04 14:46:28.367 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Department (string) Required, 1], [Property: Employee.Email (string) Required, 2], [Property: Employee.FirstName (string) Required, 3], [Property: Employee.LastName (string) Required, 4] }
+        SELECT e.Id, e.Department, e.Email, e.FirstName, e.LastName
+        FROM Employees AS e), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeCrudApi.Data.EmployeeContext, 
+    False, 
+    False, 
+    True
+)'
+2024-11-04 14:46:28.405 +05:30 [DBG] Creating DbConnection.
+2024-11-04 14:46:28.439 +05:30 [DBG] Created DbConnection. (31ms).
+2024-11-04 14:46:28.446 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:46:29.332 +05:30 [DBG] Connection id "0HN7SM5C5NBI6" received FIN.
+2024-11-04 14:46:29.335 +05:30 [DBG] Connection id "0HN7SM5C5NBI6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 14:46:29.338 +05:30 [DBG] Connection id "0HN7SM5C5NBI6" disconnecting.
+2024-11-04 14:46:29.342 +05:30 [DBG] Connection id "0HN7SM5C5NBI6" stopped.
+2024-11-04 14:46:38.812 +05:30 [ERR] An error occurred using the connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:46:38.856 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeCrudApi.Data.EmployeeContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EmployeeDb" requested by the login. The login failed.
+Login failed for user 'Asus\siddh'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:892d6478-764f-4719-966d-a63165939680
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EmployeeDb" requested by the login. The login failed.
+Login failed for user 'Asus\siddh'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:892d6478-764f-4719-966d-a63165939680
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-04 14:46:38.912 +05:30 [INF] Executed action EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi) in 11561.7308ms
+2024-11-04 14:46:38.917 +05:30 [INF] Executed endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 14:46:38.924 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EmployeeDb" requested by the login. The login failed.
+Login failed for user 'Asus\siddh'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:892d6478-764f-4719-966d-a63165939680
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EmployeeCrudApi.Controllers.EmployeeController.GetEmployees() in C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi\Controllers\EmployeeController.cs:line 27
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-04 14:46:39.004 +05:30 [DBG] Connection id "0HN7SM5C5NBI7" completed keep alive response.
+2024-11-04 14:46:39.008 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 14:46:39.018 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:46:39.028 +05:30 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-11-04 14:46:39.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Employee - 500 null text/plain; charset=utf-8 11793.1365ms
+2024-11-04 14:46:39.344 +05:30 [DBG] Connection id "0HN7SM5C5NBI7" received FIN.
+2024-11-04 14:46:39.346 +05:30 [DBG] Connection id "0HN7SM5C5NBI7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 14:46:39.347 +05:30 [DBG] Connection id "0HN7SM5C5NBI7" disconnecting.
+2024-11-04 14:46:39.348 +05:30 [DBG] Connection id "0HN7SM5C5NBI7" stopped.
+2024-11-04 14:47:10.807 +05:30 [INF] Application is shutting down...
+2024-11-04 14:47:10.809 +05:30 [DBG] Hosting stopping
+2024-11-04 14:47:10.821 +05:30 [DBG] Hosting stopped
+2024-11-04 14:54:07.534 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 14:54:07.784 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 14:54:07.804 +05:30 [DBG] Creating DbConnection.
+2024-11-04 14:54:07.834 +05:30 [DBG] Created DbConnection. (29ms).
+2024-11-04 14:54:07.838 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:07.987 +05:30 [DBG] An error occurred using the connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:07.993 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 14:54:07.996 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:08.000 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-04 14:54:35.809 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 14:54:36.043 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 14:54:36.053 +05:30 [DBG] Creating DbConnection.
+2024-11-04 14:54:36.074 +05:30 [DBG] Created DbConnection. (19ms).
+2024-11-04 14:54:36.077 +05:30 [DBG] Migrating using database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.082 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.190 +05:30 [DBG] An error occurred using the connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.191 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.192 +05:30 [DBG] An error occurred using the connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.213 +05:30 [DBG] Creating DbConnection.
+2024-11-04 14:54:36.214 +05:30 [DBG] Created DbConnection. (0ms).
+2024-11-04 14:54:36.215 +05:30 [DBG] Opening connection to database 'master' on server 'localhost'.
+2024-11-04 14:54:36.234 +05:30 [DBG] Opened connection to database 'master' on server 'localhost'.
+2024-11-04 14:54:36.237 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 14:54:36.243 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2024-11-04 14:54:36.248 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (11ms).
+2024-11-04 14:54:36.253 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [EmployeeDb];
+2024-11-04 14:54:36.569 +05:30 [INF] Executed DbCommand (317ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [EmployeeDb];
+2024-11-04 14:54:36.571 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 14:54:36.571 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 14:54:36.572 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 14:54:36.573 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EmployeeDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-11-04 14:54:36.746 +05:30 [INF] Executed DbCommand (173ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EmployeeDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-11-04 14:54:36.748 +05:30 [DBG] Closing connection to database 'master' on server 'localhost'.
+2024-11-04 14:54:36.755 +05:30 [DBG] Closed connection to database 'master' on server 'localhost' (4ms).
+2024-11-04 14:54:36.758 +05:30 [DBG] Disposing connection to database 'master' on server 'localhost'.
+2024-11-04 14:54:36.761 +05:30 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-11-04 14:54:36.762 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.769 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.770 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 14:54:36.771 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 14:54:36.772 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 14:54:36.773 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 14:54:36.780 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 14:54:36.781 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.783 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 14:54:36.818 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 14:54:36.819 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 14:54:36.821 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 14:54:36.822 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.823 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.824 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-11-04 14:54:36.838 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-11-04 14:54:36.839 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.840 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 14:54:36.841 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.842 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.843 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 14:54:36.844 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 14:54:36.845 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 14:54:36.846 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 14:54:36.847 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 14:54:36.848 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.849 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 14:54:36.852 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-11-04 14:54:36.852 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-11-04 14:54:36.853 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (1ms).
+2024-11-04 14:54:36.853 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.854 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.855 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 14:54:36.866 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 14:54:36.867 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.868 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 14:54:36.870 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.871 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.872 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-04 14:54:36.872 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-04 14:54:36.873 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-04 14:54:36.874 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 14:54:36.900 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 14:54:36.903 +05:30 [DBG] Closing data reader to 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.905 +05:30 [DBG] A data reader for 'EmployeeDb' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-11-04 14:54:36.906 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.907 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 14:54:36.914 +05:30 [INF] Applying migration '20241030035437_InitialCreate'.
+2024-11-04 14:54:36.922 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.923 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.926 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-11-04 14:54:36.932 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-11-04 14:54:36.934 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 14:54:36.934 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 14:54:36.935 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 14:54:36.936 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employees] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Department] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Employees] PRIMARY KEY ([Id])
+);
+2024-11-04 14:54:36.943 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Employees] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Department] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Employees] PRIMARY KEY ([Id])
+);
+2024-11-04 14:54:36.946 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 14:54:36.947 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 14:54:36.948 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 14:54:36.949 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20241030035437_InitialCreate', N'8.0.10');
+2024-11-04 14:54:36.965 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20241030035437_InitialCreate', N'8.0.10');
+2024-11-04 14:54:36.967 +05:30 [DBG] Committing transaction.
+2024-11-04 14:54:36.970 +05:30 [DBG] Committed transaction.
+2024-11-04 14:54:36.971 +05:30 [DBG] Disposing transaction.
+2024-11-04 14:54:36.972 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.973 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 14:54:36.974 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 14:54:36.976 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:54:36.977 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-04 14:55:38.007 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-04 14:55:38.058 +05:30 [DBG] Hosting starting
+2024-11-04 14:55:38.087 +05:30 [INF] Now listening on: http://localhost:5000
+2024-11-04 14:55:38.088 +05:30 [DBG] Loaded hosting startup assembly EmployeeCrudApi
+2024-11-04 14:55:38.090 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-04 14:55:38.091 +05:30 [INF] Hosting environment: Development
+2024-11-04 14:55:38.091 +05:30 [INF] Content root path: C:\Users\siddh\Downloads\EmployeeCrudApi\EmployeeCrudApi
+2024-11-04 14:55:38.092 +05:30 [DBG] Hosting started
+2024-11-04 14:55:44.644 +05:30 [DBG] Connection id "0HN7SMAKD2O1I" accepted.
+2024-11-04 14:55:44.646 +05:30 [DBG] Connection id "0HN7SMAKD2O1I" started.
+2024-11-04 14:55:44.646 +05:30 [DBG] Connection id "0HN7SMAKD2O1J" accepted.
+2024-11-04 14:55:44.648 +05:30 [DBG] Connection id "0HN7SMAKD2O1J" started.
+2024-11-04 14:55:44.672 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2024-11-04 14:55:44.676 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-04 14:55:44.688 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-04 14:55:44.689 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 14:55:44.736 +05:30 [DBG] Connection id "0HN7SMAKD2O1I" completed keep alive response.
+2024-11-04 14:55:44.738 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 67.2368ms
+2024-11-04 14:55:44.870 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2024-11-04 14:55:44.872 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-04 14:55:44.873 +05:30 [DBG] Request did not match any endpoints
+2024-11-04 14:55:44.939 +05:30 [DBG] Connection id "0HN7SMAKD2O1I" completed keep alive response.
+2024-11-04 14:55:44.941 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.7821ms
+2024-11-04 14:55:50.128 +05:30 [DBG] Connection id "0HN7SMAKD2O1I" received FIN.
+2024-11-04 14:55:50.128 +05:30 [DBG] Connection id "0HN7SMAKD2O1J" received FIN.
+2024-11-04 14:55:50.136 +05:30 [DBG] Connection id "0HN7SMAKD2O1I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 14:55:50.136 +05:30 [DBG] Connection id "0HN7SMAKD2O1J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 14:55:50.139 +05:30 [DBG] Connection id "0HN7SMAKD2O1I" disconnecting.
+2024-11-04 14:55:50.139 +05:30 [DBG] Connection id "0HN7SMAKD2O1J" disconnecting.
+2024-11-04 14:55:50.143 +05:30 [DBG] Connection id "0HN7SMAKD2O1I" stopped.
+2024-11-04 14:55:50.143 +05:30 [DBG] Connection id "0HN7SMAKD2O1J" stopped.
+2024-11-04 14:56:41.695 +05:30 [DBG] Connection id "0HN7SMAKD2O1K" accepted.
+2024-11-04 14:56:41.698 +05:30 [DBG] Connection id "0HN7SMAKD2O1K" started.
+2024-11-04 14:56:41.700 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Employee - application/json 115
+2024-11-04 14:56:41.717 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-11-04 14:56:41.724 +05:30 [DBG] Endpoint 'EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-11-04 14:56:41.728 +05:30 [DBG] Request matched endpoint 'EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi)'
+2024-11-04 14:56:41.736 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-04 14:56:41.738 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-04 14:56:41.743 +05:30 [INF] Executing endpoint 'EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi)'
+2024-11-04 14:56:41.797 +05:30 [INF] Route matched with {action = "PostEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EmployeeCrudApi.Models.Employee]] PostEmployee(EmployeeCrudApi.Models.Employee) on controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi).
+2024-11-04 14:56:41.805 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-04 14:56:41.811 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-04 14:56:41.816 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-04 14:56:41.821 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-04 14:56:41.823 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-04 14:56:41.830 +05:30 [DBG] Executing controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 14:56:41.972 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 14:56:42.004 +05:30 [DBG] Executed controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 14:56:42.015 +05:30 [DBG] Attempting to bind parameter 'employee' of type 'EmployeeCrudApi.Models.Employee' ...
+2024-11-04 14:56:42.020 +05:30 [DBG] Attempting to bind parameter 'employee' of type 'EmployeeCrudApi.Models.Employee' using the name '' in request data ...
+2024-11-04 14:56:42.023 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-04 14:56:42.047 +05:30 [DBG] Connection id "0HN7SMAKD2O1K", Request id "0HN7SMAKD2O1K:00000001": started reading request body.
+2024-11-04 14:56:42.049 +05:30 [DBG] Connection id "0HN7SMAKD2O1K", Request id "0HN7SMAKD2O1K:00000001": done reading request body.
+2024-11-04 14:56:42.065 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'EmployeeCrudApi.Models.Employee'
+2024-11-04 14:56:42.069 +05:30 [DBG] Done attempting to bind parameter 'employee' of type 'EmployeeCrudApi.Models.Employee'.
+2024-11-04 14:56:42.070 +05:30 [DBG] Done attempting to bind parameter 'employee' of type 'EmployeeCrudApi.Models.Employee'.
+2024-11-04 14:56:42.073 +05:30 [DBG] Attempting to validate the bound parameter 'employee' of type 'EmployeeCrudApi.Models.Employee' ...
+2024-11-04 14:56:42.087 +05:30 [DBG] Done attempting to validate the bound parameter 'employee' of type 'EmployeeCrudApi.Models.Employee'.
+2024-11-04 14:56:42.094 +05:30 [INF] Creating a new employee: EmployeeCrudApi.Models.Employee.
+2024-11-04 14:56:42.634 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 14:56:42.689 +05:30 [DBG] 'EmployeeContext' generated a temporary value for the property 'Employee.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-04 14:56:42.764 +05:30 [DBG] Context 'EmployeeContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-04 14:56:42.770 +05:30 [DBG] SaveChanges starting for 'EmployeeContext'.
+2024-11-04 14:56:42.777 +05:30 [DBG] DetectChanges starting for 'EmployeeContext'.
+2024-11-04 14:56:42.788 +05:30 [DBG] DetectChanges completed for 'EmployeeContext'.
+2024-11-04 14:56:42.870 +05:30 [DBG] Creating DbConnection.
+2024-11-04 14:56:42.898 +05:30 [DBG] Created DbConnection. (24ms).
+2024-11-04 14:56:42.903 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:56:43.156 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:56:43.179 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-04 14:56:43.188 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (18ms).
+2024-11-04 14:56:43.202 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (35ms).
+2024-11-04 14:56:43.213 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Department], [Email], [FirstName], [LastName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-11-04 14:56:43.331 +05:30 [INF] Executed DbCommand (118ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Department], [Email], [FirstName], [LastName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-11-04 14:56:43.371 +05:30 [DBG] The foreign key property 'Employee.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-04 14:56:43.390 +05:30 [DBG] Closing data reader to 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:56:43.402 +05:30 [DBG] A data reader for 'EmployeeDb' on server 'localhost' is being disposed after spending 59ms reading results.
+2024-11-04 14:56:43.410 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:56:43.419 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (9ms).
+2024-11-04 14:56:43.435 +05:30 [DBG] An entity of type 'Employee' tracked by 'EmployeeContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-04 14:56:43.439 +05:30 [DBG] SaveChanges completed for 'EmployeeContext' with 1 entities written to the database.
+2024-11-04 14:56:43.442 +05:30 [INF] Created employee with ID 1.
+2024-11-04 14:56:43.449 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-04 14:56:43.455 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-04 14:56:43.458 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-04 14:56:43.460 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-04 14:56:43.462 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-04 14:56:43.466 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-04 14:56:43.468 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'EmployeeCrudApi.Models.Employee'.
+2024-11-04 14:56:43.490 +05:30 [DBG] Found the endpoints ["EmployeeCrudApi.Controllers.EmployeeController.GetEmployee (EmployeeCrudApi)"] for address (id=[1],action=[GetEmployee],controller=[Employee])
+2024-11-04 14:56:43.497 +05:30 [DBG] Successfully processed template api/Employee/{id} for EmployeeCrudApi.Controllers.EmployeeController.GetEmployee (EmployeeCrudApi) resulting in /api/Employee/1 and 
+2024-11-04 14:56:43.502 +05:30 [DBG] Link generation succeeded for endpoints ["EmployeeCrudApi.Controllers.EmployeeController.GetEmployee (EmployeeCrudApi)"] with result /api/Employee/1
+2024-11-04 14:56:43.521 +05:30 [INF] Executed action EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi) in 1688.7612ms
+2024-11-04 14:56:43.523 +05:30 [INF] Executed endpoint 'EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi)'
+2024-11-04 14:56:43.527 +05:30 [DBG] Connection id "0HN7SMAKD2O1K" completed keep alive response.
+2024-11-04 14:56:43.532 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 14:56:43.540 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:56:43.543 +05:30 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-11-04 14:56:43.547 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Employee - 201 null application/json; charset=utf-8 1847.3869ms
+2024-11-04 14:56:50.207 +05:30 [DBG] Connection id "0HN7SMAKD2O1K" received FIN.
+2024-11-04 14:56:50.212 +05:30 [DBG] Connection id "0HN7SMAKD2O1K" disconnecting.
+2024-11-04 14:56:50.214 +05:30 [DBG] Connection id "0HN7SMAKD2O1K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 14:56:50.221 +05:30 [DBG] Connection id "0HN7SMAKD2O1K" stopped.
+2024-11-04 14:57:53.259 +05:30 [DBG] Connection id "0HN7SMAKD2O1L" accepted.
+2024-11-04 14:57:53.262 +05:30 [DBG] Connection id "0HN7SMAKD2O1L" started.
+2024-11-04 14:57:53.264 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Employee - application/json 121
+2024-11-04 14:57:53.267 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-11-04 14:57:53.276 +05:30 [DBG] Endpoint 'EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-11-04 14:57:53.280 +05:30 [DBG] Request matched endpoint 'EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi)'
+2024-11-04 14:57:53.284 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-04 14:57:53.285 +05:30 [INF] Executing endpoint 'EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi)'
+2024-11-04 14:57:53.287 +05:30 [INF] Route matched with {action = "PostEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EmployeeCrudApi.Models.Employee]] PostEmployee(EmployeeCrudApi.Models.Employee) on controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi).
+2024-11-04 14:57:53.290 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-04 14:57:53.292 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-04 14:57:53.295 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-04 14:57:53.334 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-04 14:57:53.338 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-04 14:57:53.340 +05:30 [DBG] Executing controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 14:57:53.344 +05:30 [DBG] Executed controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 14:57:53.347 +05:30 [DBG] Attempting to bind parameter 'employee' of type 'EmployeeCrudApi.Models.Employee' ...
+2024-11-04 14:57:53.349 +05:30 [DBG] Attempting to bind parameter 'employee' of type 'EmployeeCrudApi.Models.Employee' using the name '' in request data ...
+2024-11-04 14:57:53.350 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-04 14:57:53.352 +05:30 [DBG] Connection id "0HN7SMAKD2O1L", Request id "0HN7SMAKD2O1L:00000001": started reading request body.
+2024-11-04 14:57:53.354 +05:30 [DBG] Connection id "0HN7SMAKD2O1L", Request id "0HN7SMAKD2O1L:00000001": done reading request body.
+2024-11-04 14:57:53.356 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'EmployeeCrudApi.Models.Employee'
+2024-11-04 14:57:53.357 +05:30 [DBG] Done attempting to bind parameter 'employee' of type 'EmployeeCrudApi.Models.Employee'.
+2024-11-04 14:57:53.358 +05:30 [DBG] Done attempting to bind parameter 'employee' of type 'EmployeeCrudApi.Models.Employee'.
+2024-11-04 14:57:53.361 +05:30 [DBG] Attempting to validate the bound parameter 'employee' of type 'EmployeeCrudApi.Models.Employee' ...
+2024-11-04 14:57:53.364 +05:30 [DBG] Done attempting to validate the bound parameter 'employee' of type 'EmployeeCrudApi.Models.Employee'.
+2024-11-04 14:57:53.366 +05:30 [INF] Creating a new employee: EmployeeCrudApi.Models.Employee.
+2024-11-04 14:57:53.438 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 14:57:53.441 +05:30 [DBG] 'EmployeeContext' generated a temporary value for the property 'Employee.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-04 14:57:53.445 +05:30 [DBG] Context 'EmployeeContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-04 14:57:53.446 +05:30 [DBG] SaveChanges starting for 'EmployeeContext'.
+2024-11-04 14:57:53.448 +05:30 [DBG] DetectChanges starting for 'EmployeeContext'.
+2024-11-04 14:57:53.449 +05:30 [DBG] DetectChanges completed for 'EmployeeContext'.
+2024-11-04 14:57:53.452 +05:30 [DBG] Creating DbConnection.
+2024-11-04 14:57:53.454 +05:30 [DBG] Created DbConnection. (2ms).
+2024-11-04 14:57:53.456 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:57:53.461 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:57:53.463 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-04 14:57:53.464 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-11-04 14:57:53.465 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-11-04 14:57:53.467 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Department], [Email], [FirstName], [LastName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-11-04 14:57:53.485 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Department], [Email], [FirstName], [LastName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-11-04 14:57:53.488 +05:30 [DBG] The foreign key property 'Employee.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-04 14:57:53.490 +05:30 [DBG] Closing data reader to 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:57:53.490 +05:30 [DBG] A data reader for 'EmployeeDb' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-11-04 14:57:53.491 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:57:53.493 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 14:57:53.495 +05:30 [DBG] An entity of type 'Employee' tracked by 'EmployeeContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-04 14:57:53.497 +05:30 [DBG] SaveChanges completed for 'EmployeeContext' with 1 entities written to the database.
+2024-11-04 14:57:53.498 +05:30 [INF] Created employee with ID 2.
+2024-11-04 14:57:53.499 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-04 14:57:53.502 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-04 14:57:53.503 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-04 14:57:53.506 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-04 14:57:53.507 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-04 14:57:53.508 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-04 14:57:53.510 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'EmployeeCrudApi.Models.Employee'.
+2024-11-04 14:57:53.513 +05:30 [DBG] Found the endpoints ["EmployeeCrudApi.Controllers.EmployeeController.GetEmployee (EmployeeCrudApi)"] for address (id=[2],action=[GetEmployee],controller=[Employee])
+2024-11-04 14:57:53.515 +05:30 [DBG] Successfully processed template api/Employee/{id} for EmployeeCrudApi.Controllers.EmployeeController.GetEmployee (EmployeeCrudApi) resulting in /api/Employee/2 and 
+2024-11-04 14:57:53.517 +05:30 [DBG] Link generation succeeded for endpoints ["EmployeeCrudApi.Controllers.EmployeeController.GetEmployee (EmployeeCrudApi)"] with result /api/Employee/2
+2024-11-04 14:57:53.519 +05:30 [INF] Executed action EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi) in 178.7607ms
+2024-11-04 14:57:53.520 +05:30 [INF] Executed endpoint 'EmployeeCrudApi.Controllers.EmployeeController.PostEmployee (EmployeeCrudApi)'
+2024-11-04 14:57:53.522 +05:30 [DBG] Connection id "0HN7SMAKD2O1L" completed keep alive response.
+2024-11-04 14:57:53.523 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 14:57:53.524 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:57:53.525 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-04 14:57:53.527 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Employee - 201 null application/json; charset=utf-8 263.6187ms
+2024-11-04 14:58:00.277 +05:30 [DBG] Connection id "0HN7SMAKD2O1L" received FIN.
+2024-11-04 14:58:00.280 +05:30 [DBG] Connection id "0HN7SMAKD2O1L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 14:58:00.282 +05:30 [DBG] Connection id "0HN7SMAKD2O1L" disconnecting.
+2024-11-04 14:58:00.284 +05:30 [DBG] Connection id "0HN7SMAKD2O1L" stopped.
+2024-11-04 14:58:05.967 +05:30 [DBG] Connection id "0HN7SMAKD2O1M" accepted.
+2024-11-04 14:58:05.971 +05:30 [DBG] Connection id "0HN7SMAKD2O1M" started.
+2024-11-04 14:58:05.977 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee - null null
+2024-11-04 14:58:05.988 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-11-04 14:58:05.990 +05:30 [DBG] Endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-11-04 14:58:05.993 +05:30 [DBG] Request matched endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 14:58:05.996 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-04 14:58:05.998 +05:30 [INF] Executing endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 14:58:06.004 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[EmployeeCrudApi.Models.Employee]]] GetEmployees() on controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi).
+2024-11-04 14:58:06.007 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-04 14:58:06.009 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-04 14:58:06.011 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-04 14:58:06.013 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-04 14:58:06.014 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-04 14:58:06.017 +05:30 [DBG] Executing controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 14:58:06.024 +05:30 [DBG] Executed controller factory for controller EmployeeCrudApi.Controllers.EmployeeController (EmployeeCrudApi)
+2024-11-04 14:58:06.028 +05:30 [INF] Fetching all employees.
+2024-11-04 14:58:06.048 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 14:58:06.098 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()'
+2024-11-04 14:58:06.296 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Department (string) Required, 1], [Property: Employee.Email (string) Required, 2], [Property: Employee.FirstName (string) Required, 3], [Property: Employee.LastName (string) Required, 4] }
+        SELECT e.Id, e.Department, e.Email, e.FirstName, e.LastName
+        FROM Employees AS e), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeCrudApi.Data.EmployeeContext, 
+    False, 
+    False, 
+    True
+)'
+2024-11-04 14:58:06.326 +05:30 [DBG] Creating DbConnection.
+2024-11-04 14:58:06.328 +05:30 [DBG] Created DbConnection. (2ms).
+2024-11-04 14:58:06.330 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:58:06.332 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:58:06.334 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-04 14:58:06.335 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-11-04 14:58:06.336 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-11-04 14:58:06.338 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[FirstName], [e].[LastName]
+FROM [Employees] AS [e]
+2024-11-04 14:58:06.346 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[FirstName], [e].[LastName]
+FROM [Employees] AS [e]
+2024-11-04 14:58:06.354 +05:30 [DBG] Context 'EmployeeContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-04 14:58:06.358 +05:30 [DBG] Context 'EmployeeContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-04 14:58:06.361 +05:30 [DBG] Closing data reader to 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:58:06.362 +05:30 [DBG] A data reader for 'EmployeeDb' on server 'localhost' is being disposed after spending 13ms reading results.
+2024-11-04 14:58:06.364 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:58:06.366 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 14:58:06.367 +05:30 [INF] Fetched 2 employees.
+2024-11-04 14:58:06.368 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-04 14:58:06.371 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-04 14:58:06.372 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-04 14:58:06.373 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-04 14:58:06.374 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-04 14:58:06.375 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-04 14:58:06.376 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeCrudApi.Models.Employee, EmployeeCrudApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-04 14:58:06.385 +05:30 [INF] Executed action EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi) in 368.4043ms
+2024-11-04 14:58:06.387 +05:30 [INF] Executed endpoint 'EmployeeCrudApi.Controllers.EmployeeController.GetEmployees (EmployeeCrudApi)'
+2024-11-04 14:58:06.388 +05:30 [DBG] Connection id "0HN7SMAKD2O1M" completed keep alive response.
+2024-11-04 14:58:06.389 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 14:58:06.389 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 14:58:06.391 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-04 14:58:06.391 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Employee - 200 null application/json; charset=utf-8 414.9302ms
+2024-11-04 14:58:10.293 +05:30 [DBG] Connection id "0HN7SMAKD2O1M" received FIN.
+2024-11-04 14:58:10.294 +05:30 [DBG] Connection id "0HN7SMAKD2O1M" disconnecting.
+2024-11-04 14:58:10.296 +05:30 [DBG] Connection id "0HN7SMAKD2O1M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-04 14:58:10.308 +05:30 [DBG] Connection id "0HN7SMAKD2O1M" stopped.
+2024-11-04 15:07:57.528 +05:30 [INF] Application is shutting down...
+2024-11-04 15:07:57.530 +05:30 [DBG] Hosting stopping
+2024-11-04 15:07:57.539 +05:30 [DBG] Hosting stopped
+2024-11-04 15:08:21.259 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 15:08:21.582 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 15:08:22.097 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 15:08:41.869 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 15:08:42.205 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 15:08:42.217 +05:30 [DBG] Creating DbConnection.
+2024-11-04 15:08:42.249 +05:30 [DBG] Created DbConnection. (30ms).
+2024-11-04 15:08:42.253 +05:30 [DBG] Migrating using database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.259 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.418 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.423 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:08:42.430 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2024-11-04 15:08:42.434 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (12ms).
+2024-11-04 15:08:42.439 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:08:42.457 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:08:42.464 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.472 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (5ms).
+2024-11-04 15:08:42.475 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-11-04 15:08:42.478 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2024-11-04 15:08:42.479 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (3ms).
+2024-11-04 15:08:42.481 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.483 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.485 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:08:42.502 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:08:42.505 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.506 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:08:42.508 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.510 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.512 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:08:42.513 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:08:42.515 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2024-11-04 15:08:42.516 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:08:42.520 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:08:42.522 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.524 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:08:42.527 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-11-04 15:08:42.528 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2024-11-04 15:08:42.530 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (3ms).
+2024-11-04 15:08:42.532 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.534 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.535 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:08:42.538 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:08:42.540 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.541 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:08:42.560 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.563 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.565 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-04 15:08:42.566 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-11-04 15:08:42.568 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-11-04 15:08:42.569 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 15:08:42.581 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 15:08:42.584 +05:30 [DBG] Closing data reader to 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.587 +05:30 [DBG] A data reader for 'EmployeeDb' on server 'localhost' is being disposed after spending 3ms reading results.
+2024-11-04 15:08:42.588 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.589 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:08:42.599 +05:30 [INF] Applying migration '20241104093822_AddDepartmentRelationToEmployee'.
+2024-11-04 15:08:42.637 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.640 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.643 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-11-04 15:08:42.650 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-11-04 15:08:42.652 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:08:42.653 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:08:42.655 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:08:42.656 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Employees]') AND [c].[name] = N'Department');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Employees] DROP COLUMN [Department];
+2024-11-04 15:08:42.800 +05:30 [INF] Executed DbCommand (144ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Employees]') AND [c].[name] = N'Department');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Employees] DROP COLUMN [Department];
+2024-11-04 15:08:42.802 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:08:42.803 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:08:42.804 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:08:42.805 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD [DepartmentId] int NOT NULL DEFAULT 0;
+2024-11-04 15:08:42.818 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD [DepartmentId] int NOT NULL DEFAULT 0;
+2024-11-04 15:08:42.820 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:08:42.821 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:08:42.821 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:08:42.822 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Departments] (
+    [Id] int NOT NULL IDENTITY,
+    [DepartmentName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);
+2024-11-04 15:08:42.835 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Departments] (
+    [Id] int NOT NULL IDENTITY,
+    [DepartmentName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);
+2024-11-04 15:08:42.837 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:08:42.838 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:08:42.838 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:08:42.839 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employees_DepartmentId] ON [Employees] ([DepartmentId]);
+2024-11-04 15:08:42.881 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employees_DepartmentId] ON [Employees] ([DepartmentId]);
+2024-11-04 15:08:42.883 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:08:42.884 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:08:42.885 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:08:42.886 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD CONSTRAINT [FK_Employees_Departments_DepartmentId] FOREIGN KEY ([DepartmentId]) REFERENCES [Departments] ([Id]) ON DELETE CASCADE;
+2024-11-04 15:08:42.925 +05:30 [ERR] Failed executing DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD CONSTRAINT [FK_Employees_Departments_DepartmentId] FOREIGN KEY ([DepartmentId]) REFERENCES [Departments] ([Id]) ON DELETE CASCADE;
+2024-11-04 15:08:42.930 +05:30 [DBG] Disposing transaction.
+2024-11-04 15:08:42.931 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.932 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:08:42.934 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 15:08:42.937 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:08:42.938 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-04 15:15:32.814 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 15:15:33.152 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 15:15:33.472 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 15:16:12.856 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 15:16:13.165 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 15:16:13.177 +05:30 [DBG] Creating DbConnection.
+2024-11-04 15:16:13.213 +05:30 [DBG] Created DbConnection. (34ms).
+2024-11-04 15:16:13.218 +05:30 [DBG] Migrating using database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.224 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.376 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.382 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:16:13.387 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2024-11-04 15:16:13.390 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2024-11-04 15:16:13.395 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:16:13.413 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:16:13.416 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.422 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (4ms).
+2024-11-04 15:16:13.425 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-11-04 15:16:13.427 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2024-11-04 15:16:13.427 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+2024-11-04 15:16:13.428 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.429 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.430 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:16:13.444 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:16:13.445 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.447 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:16:13.448 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.449 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.449 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:16:13.450 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:16:13.450 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:16:13.451 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:16:13.453 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:16:13.454 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.455 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 15:16:13.456 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-11-04 15:16:13.457 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-11-04 15:16:13.457 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-11-04 15:16:13.458 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.458 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.459 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:16:13.461 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:16:13.462 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.463 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 15:16:13.476 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.477 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.478 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-04 15:16:13.479 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-11-04 15:16:13.480 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-11-04 15:16:13.481 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 15:16:13.506 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 15:16:13.509 +05:30 [DBG] Closing data reader to 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.512 +05:30 [DBG] A data reader for 'EmployeeDb' on server 'localhost' is being disposed after spending 3ms reading results.
+2024-11-04 15:16:13.514 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.514 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 15:16:13.520 +05:30 [INF] Applying migration '20241104093822_AddDepartmentRelationToEmployee'.
+2024-11-04 15:16:13.547 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.549 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.551 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-11-04 15:16:13.555 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-11-04 15:16:13.556 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:16:13.557 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:16:13.559 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:16:13.560 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Employees]') AND [c].[name] = N'Department');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Employees] DROP COLUMN [Department];
+2024-11-04 15:16:13.659 +05:30 [INF] Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Employees]') AND [c].[name] = N'Department');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Employees] DROP COLUMN [Department];
+2024-11-04 15:16:13.663 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:16:13.665 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:16:13.666 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:16:13.668 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD [DepartmentId] int NOT NULL DEFAULT 0;
+2024-11-04 15:16:13.676 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD [DepartmentId] int NOT NULL DEFAULT 0;
+2024-11-04 15:16:13.678 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:16:13.679 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:16:13.680 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:16:13.680 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Departments] (
+    [Id] int NOT NULL IDENTITY,
+    [DepartmentName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);
+2024-11-04 15:16:13.688 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Departments] (
+    [Id] int NOT NULL IDENTITY,
+    [DepartmentName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);
+2024-11-04 15:16:13.689 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:16:13.690 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:16:13.690 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:16:13.691 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employees_DepartmentId] ON [Employees] ([DepartmentId]);
+2024-11-04 15:16:13.707 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employees_DepartmentId] ON [Employees] ([DepartmentId]);
+2024-11-04 15:16:13.709 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:16:13.710 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:16:13.711 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:16:13.712 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD CONSTRAINT [FK_Employees_Departments_DepartmentId] FOREIGN KEY ([DepartmentId]) REFERENCES [Departments] ([Id]) ON DELETE CASCADE;
+2024-11-04 15:16:13.726 +05:30 [ERR] Failed executing DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD CONSTRAINT [FK_Employees_Departments_DepartmentId] FOREIGN KEY ([DepartmentId]) REFERENCES [Departments] ([Id]) ON DELETE CASCADE;
+2024-11-04 15:16:13.730 +05:30 [DBG] Disposing transaction.
+2024-11-04 15:16:13.731 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.732 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 15:16:13.733 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 15:16:13.735 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:16:13.736 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-04 15:18:10.474 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 15:18:10.796 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 15:18:11.024 +05:30 [DBG] Creating DbConnection.
+2024-11-04 15:18:11.047 +05:30 [DBG] Created DbConnection. (22ms).
+2024-11-04 15:18:11.053 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.191 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.196 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:18:11.201 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2024-11-04 15:18:11.203 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2024-11-04 15:18:11.211 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:18:11.227 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:18:11.231 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.237 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (4ms).
+2024-11-04 15:18:11.241 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-11-04 15:18:11.241 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-11-04 15:18:11.243 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+2024-11-04 15:18:11.245 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.246 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.247 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:18:11.259 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:18:11.261 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.263 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:18:11.273 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.273 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.274 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-04 15:18:11.275 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-04 15:18:11.276 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-04 15:18:11.278 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 15:18:11.291 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 15:18:11.296 +05:30 [DBG] Closing data reader to 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.297 +05:30 [DBG] A data reader for 'EmployeeDb' on server 'localhost' is being disposed after spending 1ms reading results.
+2024-11-04 15:18:11.298 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.299 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 15:18:11.331 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 15:18:11.334 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:18:11.335 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-04 15:19:38.682 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 15:19:38.987 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 15:19:39.257 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 15:20:02.020 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 15:20:02.346 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 15:20:02.360 +05:30 [DBG] Creating DbConnection.
+2024-11-04 15:20:02.381 +05:30 [DBG] Created DbConnection. (19ms).
+2024-11-04 15:20:02.385 +05:30 [DBG] Migrating using database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.390 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.516 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.521 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:20:02.524 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:20:02.526 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2024-11-04 15:20:02.533 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:20:02.548 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:20:02.552 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.559 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (4ms).
+2024-11-04 15:20:02.563 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-11-04 15:20:02.564 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-11-04 15:20:02.564 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (1ms).
+2024-11-04 15:20:02.565 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.566 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.567 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:20:02.582 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:20:02.583 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.584 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:20:02.585 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.586 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.586 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:20:02.587 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:20:02.589 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:20:02.590 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:20:02.592 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-04 15:20:02.594 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.596 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:20:02.598 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-11-04 15:20:02.598 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-11-04 15:20:02.599 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (1ms).
+2024-11-04 15:20:02.600 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.600 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.601 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:20:02.603 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-04 15:20:02.604 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.604 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 15:20:02.616 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.617 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.618 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-04 15:20:02.618 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-04 15:20:02.619 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-04 15:20:02.620 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 15:20:02.627 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-04 15:20:02.631 +05:30 [DBG] Closing data reader to 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.632 +05:30 [DBG] A data reader for 'EmployeeDb' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-11-04 15:20:02.634 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.634 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (0ms).
+2024-11-04 15:20:02.640 +05:30 [INF] Applying migration '20241104094939_AddDepartmentTable'.
+2024-11-04 15:20:02.669 +05:30 [DBG] Opening connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.669 +05:30 [DBG] Opened connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.672 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-11-04 15:20:02.676 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-11-04 15:20:02.679 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:20:02.681 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:20:02.682 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2024-11-04 15:20:02.683 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Employees]') AND [c].[name] = N'Department');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Employees] DROP COLUMN [Department];
+2024-11-04 15:20:02.783 +05:30 [INF] Executed DbCommand (100ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Employees]') AND [c].[name] = N'Department');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Employees] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Employees] DROP COLUMN [Department];
+2024-11-04 15:20:02.784 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:20:02.785 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:20:02.785 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:20:02.786 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD [DepartmentId] int NOT NULL DEFAULT 0;
+2024-11-04 15:20:02.792 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD [DepartmentId] int NOT NULL DEFAULT 0;
+2024-11-04 15:20:02.794 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:20:02.795 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:20:02.796 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:20:02.797 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Departments] (
+    [Id] int NOT NULL IDENTITY,
+    [DepartmentName] nvarchar(max) NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);
+2024-11-04 15:20:02.803 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Departments] (
+    [Id] int NOT NULL IDENTITY,
+    [DepartmentName] nvarchar(max) NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);
+2024-11-04 15:20:02.805 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:20:02.806 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-11-04 15:20:02.807 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:20:02.808 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employees_DepartmentId] ON [Employees] ([DepartmentId]);
+2024-11-04 15:20:02.831 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Employees_DepartmentId] ON [Employees] ([DepartmentId]);
+2024-11-04 15:20:02.833 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-11-04 15:20:02.834 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-11-04 15:20:02.835 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-11-04 15:20:02.836 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD CONSTRAINT [FK_Employees_Departments_DepartmentId] FOREIGN KEY ([DepartmentId]) REFERENCES [Departments] ([Id]) ON DELETE CASCADE;
+2024-11-04 15:20:02.855 +05:30 [ERR] Failed executing DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Employees] ADD CONSTRAINT [FK_Employees_Departments_DepartmentId] FOREIGN KEY ([DepartmentId]) REFERENCES [Departments] ([Id]) ON DELETE CASCADE;
+2024-11-04 15:20:02.857 +05:30 [DBG] Disposing transaction.
+2024-11-04 15:20:02.858 +05:30 [DBG] Closing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.860 +05:30 [DBG] Closed connection to database 'EmployeeDb' on server 'localhost' (1ms).
+2024-11-04 15:20:02.863 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 15:20:02.866 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:02.867 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-04 15:20:47.174 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-04 15:20:47.481 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-04 15:20:47.485 +05:30 [DBG] Creating DbConnection.
+2024-11-04 15:20:47.507 +05:30 [DBG] Created DbConnection. (21ms).
+2024-11-04 15:20:47.513 +05:30 [DBG] 'EmployeeContext' disposed.
+2024-11-04 15:20:47.518 +05:30 [DBG] Disposing connection to database 'EmployeeDb' on server 'localhost'.
+2024-11-04 15:20:47.521 +05:30 [DBG] Disposed connection to database '' on server '' (2ms).
