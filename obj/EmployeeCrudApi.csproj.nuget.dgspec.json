@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\siddh\\Downloads\\EmployeeCrudApi\\EmployeeCrudApi\\EmployeeCrudApi.csproj": {}
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\API\\EmployeeAPI\\EmployeeCrudApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\siddh\\Downloads\\EmployeeCrudApi\\EmployeeCrudApi\\EmployeeCrudApi.csproj": {
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\API\\EmployeeAPI\\EmployeeCrudApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\siddh\\Downloads\\EmployeeCrudApi\\EmployeeCrudApi\\EmployeeCrudApi.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\API\\EmployeeAPI\\EmployeeCrudApi.csproj",
         "projectName": "EmployeeCrudApi",
-        "projectPath": "C:\\Users\\siddh\\Downloads\\EmployeeCrudApi\\EmployeeCrudApi\\EmployeeCrudApi.csproj",
-        "packagesPath": "C:\\Users\\siddh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\siddh\\Downloads\\EmployeeCrudApi\\EmployeeCrudApi\\obj\\",
+        "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\API\\EmployeeAPI\\EmployeeCrudApi.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\API\\EmployeeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\siddh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,6 +63,14 @@
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

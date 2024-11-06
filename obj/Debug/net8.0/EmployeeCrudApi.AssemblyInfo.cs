@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeCrudApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be576a4bbb31b087f2ba95cc81ccfc3e5315d253")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89b085be8d51bef97ec8d7f671790cf904ee4605")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeCrudApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeCrudApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

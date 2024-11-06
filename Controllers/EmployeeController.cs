@@ -1,8 +1,10 @@
-using EmployeeCrudApi.Data;
-using EmployeeCrudApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
+using Serilog;  // Ensure this is included for Serilog logging
+using EmployeeCrudApi.Models;  // Ensure this is included for Employee and other models
+using EmployeeCrudApi.Data;    // Ensure this is included for AppDbContext
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace EmployeeCrudApi.Controllers
 {
@@ -11,136 +13,163 @@ namespace EmployeeCrudApi.Controllers
     public class EmployeeController : ControllerBase
     {
         private readonly EmployeeContext _context;
-        private readonly ILogger<EmployeeController> _logger;
+        private readonly Serilog.ILogger _logger;  
 
-        public EmployeeController(EmployeeContext context, ILogger<EmployeeController> logger)
+        public EmployeeController(EmployeeContext context)
         {
             _context = context;
-            _logger = logger;
+            _logger = Log.ForContext<EmployeeController>();  
         }
 
-        // GET: api/employee
+        // 1. Get all employee details with their department name
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
+        public async Task<IActionResult> GetAllEmployees()
         {
-            _logger.LogInformation("Fetching all employees with departments.");
-            var employees = await _context.Employees.ToListAsync();
-                                        //   .Include(e => e.Department) // Include Department data
-                                        //   .ToListAsync();
-            _logger.LogInformation("Fetched {Count} employees.", employees.Count);
-            return Ok(employees);
+            _logger.Information("Fetching all employees with their department details.");
+            try
+            {
+                var employees = await _context.Employees
+                    .Include(e => e.EmployeeDepartments).ToListAsync();
+                    // .ThenInclude(ed => ed.Department)
+                    // .ToListAsync();
+
+                _logger.Information("Successfully fetched {EmployeeCount} employees.", employees.Count);
+                return Ok(employees);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex, "Error occurred while fetching employees.");
+                return StatusCode(500, "Internal server error");
+            }
         }
 
-        // GET: api/employee/5
+        // 2. Create a new employee with department name
+        [HttpPost]
+        public async Task<IActionResult> CreateEmployee([FromBody] Employee employee)
+        {
+            _logger.Information("Creating new employee.");
+
+            try
+            {
+                _context.Employees.Add(employee);
+                await _context.SaveChangesAsync();
+                _logger.Information("Successfully created employee with ID {EmployeeId}.", employee.EmployeeId);
+                return CreatedAtAction(nameof(GetEmployeeById), new { id = employee.EmployeeId }, employee);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex, "Error occurred while creating employee.");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        // 3. Get all employees with department id
+        [HttpGet("by-department/{departmentId}")]
+        public async Task<IActionResult> GetEmployeesByDepartment(int departmentId)
+        {
+            _logger.Information("Fetching employees for department with ID {DepartmentId}.", departmentId);
+            try
+            {
+                var employees = await _context.EmployeeDepartments
+                    .Where(ed => ed.DepartmentId == departmentId)
+                    .Include(ed => ed.Employee)
+                    .Select(ed => ed.Employee)
+                    .ToListAsync();
+
+                return Ok(employees);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex, "Error occurred while fetching employees by department.");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        // 4. Get employee details with employee id
         [HttpGet("{id}")]
-        public async Task<ActionResult<Employee>> GetEmployee(int id)
+        public async Task<IActionResult> GetEmployeeById(int id)
         {
-            _logger.LogInformation("Fetching employee with ID {Id} including department.", id);
-            var employee = await _context.Employees
-                                         .Include(e => e.Department) // Include Department data
-                                         .FirstOrDefaultAsync(e => e.Id == id);
-
-            if (employee == null)
+            _logger.Information("Fetching employee details for ID {EmployeeId}.", id);
+            try
             {
-                _logger.LogWarning("Employee with ID {Id} not found.", id);
-                return NotFound();
-            }
+                var employee = await _context.Employees
+                    .Include(e => e.EmployeeDepartments)
+                    .ThenInclude(ed => ed.Department)
+                    .FirstOrDefaultAsync(e => e.EmployeeId == id);
 
-            _logger.LogInformation("Fetched employee: {Employee}.", employee);
-            return Ok(employee);
+                if (employee == null)
+                {
+                    _logger.Warning("Employee with ID {EmployeeId} not found.", id);
+                    return NotFound();
+                }
+
+                return Ok(employee);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex, "Error occurred while fetching employee details.");
+                return StatusCode(500, "Internal server error");
+            }
         }
 
-        // POST: api/employee
-      [HttpPost]
-public async Task<ActionResult<Employee>> PostEmployee([FromBody] Employee employee)
-{
-    if (!ModelState.IsValid)
-    {
-        _logger.LogWarning("Invalid model state for employee creation.");
-        return BadRequest(ModelState);
-    }
-
-    // Check if the department exists
-    var department = await _context.Departments.FindAsync(employee.DepartmentId);
-    if (department == null)
-    {
-        _logger.LogWarning("Department with ID {DepartmentId} not found.", employee.DepartmentId);
-        return NotFound(new { Message = $"Department with ID {employee.DepartmentId} not found." });
-    }
-
-    // Associate the existing department with the employee
-    employee.Department = department;
-
-    _logger.LogInformation("Creating a new employee: {Employee}.", employee);
-    _context.Employees.Add(employee);
-    await _context.SaveChangesAsync();
-
-    _logger.LogInformation("Created employee with ID {Id}.", employee.Id);
-    return CreatedAtAction(nameof(GetEmployee), new { id = employee.Id }, employee);
-}
-
-        // PUT: api/employee/5
+        // 5. Update employee details with department name
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutEmployee(int id, [FromBody] Employee employee)
+        public async Task<IActionResult> UpdateEmployee(int id, [FromBody] Employee employee)
         {
-            if (id != employee.Id)
-            {
-                _logger.LogError("Employee ID mismatch. Provided ID: {ProvidedId}, Employee ID: {EmployeeId}", id, employee.Id);
-                return BadRequest("Employee ID mismatch.");
-            }
+            _logger.Information("Updating employee details for ID {EmployeeId}.", id);
 
-            if (!ModelState.IsValid)
-            {
-                _logger.LogWarning("Invalid model state for employee update.");
-                return BadRequest(ModelState);
-            }
+            if (id != employee.EmployeeId) return BadRequest();
 
             _context.Entry(employee).State = EntityState.Modified;
 
             try
             {
                 await _context.SaveChangesAsync();
-                _logger.LogInformation("Updated employee with ID {Id}.", id);
+                _logger.Information("Successfully updated employee with ID {EmployeeId}.", id);
             }
             catch (DbUpdateConcurrencyException)
             {
                 if (!EmployeeExists(id))
                 {
-                    _logger.LogWarning("Employee with ID {Id} not found for update.", id);
+                    _logger.Warning("Employee with ID {EmployeeId} not found.", id);
                     return NotFound();
                 }
-                else
-                {
-                    _logger.LogError("Concurrency exception occurred while updating employee with ID {Id}.", id);
-                    throw; // Consider throwing a custom exception or returning a specific error
-                }
+                throw;
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex, "Error occurred while updating employee.");
+                return StatusCode(500, "Internal server error");
             }
 
             return NoContent();
         }
 
-        // DELETE: api/employee/5
+        // 6. Delete employee
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
-            _logger.LogInformation("Deleting employee with ID {Id}.", id);
+            _logger.Information("Deleting employee with ID {EmployeeId}.", id);
+
             var employee = await _context.Employees.FindAsync(id);
             if (employee == null)
             {
-                _logger.LogWarning("Employee with ID {Id} not found for deletion.", id);
+                _logger.Warning("Employee with ID {EmployeeId} not found.", id);
                 return NotFound();
             }
 
             _context.Employees.Remove(employee);
             await _context.SaveChangesAsync();
 
-            _logger.LogInformation("Deleted employee with ID {Id}.", id);
+            _logger.Information("Successfully deleted employee with ID {EmployeeId}.", id);
+
             return NoContent();
         }
 
+        // Helper method to check if employee exists
         private bool EmployeeExists(int id)
         {
-            return _context.Employees.Any(e => e.Id == id);
+            return _context.Employees.Any(e => e.EmployeeId == id);
         }
     }
 }

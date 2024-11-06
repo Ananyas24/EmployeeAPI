@@ -1,23 +1,31 @@
 using EmployeeCrudApi.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure Serilog
 Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Debug()
-    .WriteTo.Console()  // Optional: Log to console
-    .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day) // Log file configuration
+    .WriteTo.Console()  // Logs to the console
+    .WriteTo.File("logs/employee-api-.log", rollingInterval: RollingInterval.Day)  // Logs to files, rolling daily
     .CreateLogger();
 
 // Add services to the container.
 builder.Host.UseSerilog(); // Use Serilog for logging
-builder.Services.AddControllers();
+
+
 
 // Configure the DB Context
 builder.Services.AddDbContext<EmployeeContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    // Configure JSON serialization to preserve references
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+    });
+
 
 // Add swagger
 builder.Services.AddEndpointsApiExplorer();

@@ -1,17 +1,12 @@
 namespace EmployeeCrudApi.Models
 {
-    public class Employee
-    {
-        public int Id { get; set; }
-        
-        public required string FirstName { get; set; }
-        public required string LastName { get; set; }
-        public required string Email { get; set; }
-        
-        public int DepartmentId { get; set; } // Foreign key for Department
-        
+   public class Employee
+{
+    public int EmployeeId { get; set; }
+    public required string Name { get; set; }
+    public required string Position { get; set; }
 
-        
-         public Department? Department { get; set; }
-    }
+    public ICollection<EmployeeDepartment> EmployeeDepartments { get; set; } = new List<EmployeeDepartment>();
+}
+
 }
